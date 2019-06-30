@@ -1,0 +1,127 @@
+/* GLOBALS SETTINGS */
+.main-container {
+  max-width: 800px;
+  padding-top: 30px;
+  padding-left: 0;
+  padding-right: 0;
+  margin-bottom: 30px;
+}
+
+h1,
+h2 {
+  font-family: 'EB Garamond', serif;
+}
+
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Roboto', sans-serif;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  word-wrap: break-word;
+}
+
+h2.section-header {
+  display: block;
+  width: 100%;
+  font-size: 1.25em;
+  border-top: 1px black solid;
+  padding-top: 3px;
+  margin: 20px 0 15px 0;
+}
+
+#intro h1.my-name {
+  font-size: 5em;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
+
+#intro h3.my-headline {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+#intro p.my-summary {
+  font-size: 0.9em;
+}
+
+#intro .contact-row {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+#intro .contact-card {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+#intro p.contact-details {
+  display: inline;
+  font-size: 0.65em;
+}
+
+#intro .fas {
+  display: inline;
+  padding: 0;
+  margin: 0;
+  size: 1px;
+}
+
+#intro .card-body {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.skill-row h3.skills-title {
+  font-size: 1em;
+}
+
+.experience-rows .experience-title {
+  margin: 8px 0 0 0;
+  padding: 0;
+  font-size: 1.1em;
+}
+
+.experience-rows .experience-dates {
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+  font-size: 0.8em;
+}
+
+.experience-rows .experience-location {
+  margin: 8px 0 0 0;
+  padding: 0;
+  font-size: 0.9em;
+}
+
+.experience-rows .experience-city {
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+  font-size: 0.8em;
+}
+
+.experience-rows .experience-description {
+  font-size: 0.9em;
+  padding: 0.2em 1em 0.2em 3em;
+  margin: 0.25em 0.25em 1em 0.25em;
+}
+
+@media only screen and (max-width: 600px) {
+  h1.my-name {
+    padding-left: 6px;
+  }
+  h2.section-header {
+    padding-left: 6px;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
