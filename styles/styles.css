@@ -82,10 +82,11 @@ h2.section-header {
 
 #contact-header p.contact-details {
   font-family: "Roboto Mono", monospace;
-  font-size: 1.4vw;
+  font-size: calc(10px + 0.5vw);
   margin-top: -5px;
   font-weight: 500;
   color: #ffffff;
+  white-space: nowrap;
 }
 
 #contact-header .icons {
@@ -264,6 +265,7 @@ h2.section-header {
     font-weight: 700;
     line-height: 1.8;
     padding: 0 6px 0 6px;
+    white-space: nowrap;
   }
   #mobile-contact .icons {
     padding-right: 10px;
