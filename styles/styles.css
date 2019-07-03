@@ -214,8 +214,9 @@ h2.section-header {
   #contact-header {
     display: none;
   }
-  a {
-    color: #050505;
+  #projects .view-project {
+    font-size: calc(12px + 0.5vw);
+    padding-left: 6px;
   }
   #intro {
     margin-top: 0;
@@ -244,6 +245,9 @@ h2.section-header {
   }
   #mobile-contact {
     display: inline;
+  }
+  #mobile-contact a {
+    color: #050505;
   }
   #mobile-contact .card-body {
     padding: 0;
