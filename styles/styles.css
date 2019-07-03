@@ -1,7 +1,12 @@
 /* GLOBALS SETTINGS */
+body {
+  background-color: #ffffff;
+  -webkit-font-smoothing: antialiased;
+}
+
 .main-container {
   max-width: 800px;
-  padding-top: 30px;
+  padding-top: 80px;
   padding-left: 0;
   padding-right: 0;
   margin-bottom: 30px;
@@ -9,119 +14,291 @@
 
 h1,
 h2 {
-  font-family: 'EB Garamond', serif;
+  font-family: "Roboto Mono", monospace;
+  color: #2c363f;
+  font-weight: 700;
 }
 
 h3,
 h4,
 h5,
 h6 {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto Mono", sans-serif;
+  color: #2c363f;
+  font-weight: 700;
 }
 
 p {
-  font-family: 'Roboto', sans-serif;
-  font-size: 14px;
+  font-family: "Roboto Mono", sans-serif;
+  font-size: 1.5vw;
   word-wrap: break-word;
+  color: #2c363f;
+  line-height: 1.5;
 }
 
 h2.section-header {
   display: block;
   width: 100%;
   font-size: 1.25em;
-  border-top: 1px black solid;
-  padding-top: 3px;
-  margin: 20px 0 15px 0;
+  border-top: 2px #5dd9c1 solid;
+  color: #202020;
+  padding-top: 5px;
+  margin: 20px 0 10px 0;
+  font-weight: 700;
 }
 
 #intro h1.my-name {
-  font-size: 5em;
+  font-size: 5vw;
   margin: 0;
   padding: 0;
-  line-height: 1;
+  line-height: 1.1;
+  font-family: "Roboto Mono", monospace;
+  color: #050505;
+}
+
+#intro .yellow {
+  color: yellow;
 }
 
 #intro h3.my-headline {
-  font-size: 1.5em;
+  font-size: 2.5vw;
+  font-family: "Roboto Mono", monospace;
   margin-bottom: 20px;
 }
 
 #intro p.my-summary {
-  font-size: 0.9em;
+  font-size: 1.5vw;
+  line-height: 1.5;
+  color: #2c363f;
 }
 
-#intro .contact-row {
+.skill-row h3.skills-title {
+  font-size: 1.8vw;
+}
+
+.experience-rows .experience-title {
+  margin: 25px 0 0 0;
+  padding: 0;
+  font-size: 1.8vw;
+}
+
+.experience-rows .experience-dates {
+  margin: 2px 0 0 0;
+  padding: 0;
+  font-size: 0.8em;
+  font-weight: 300;
+  color: #2c363f;
+  text-transform: uppercase;
+}
+
+.experience-rows .experience-location {
+  margin: 30px 0 0 0;
+  color: #2c363f;
+  padding: 0;
+  font-size: 1.4vw;
+}
+
+.experience-rows .experience-city {
+  margin: 2px 0 0 0;
+  padding: 0;
+  font-size: 0.8em;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #2c363f;
+}
+
+.experience-rows p.experience-description {
+  font-size: 1.5vw;
+  line-height: 1.5;
+  padding: 0;
+  margin: 5px 0 10px 0;
+  color: #2c363f;
+}
+
+#contact-header {
+  position: fixed;
+  width: 100%;
+  background-color: black;
+  padding: 10px 40px 5px 40px;
+  z-index: 1;
+  color: white;
+  border-bottom: 2px solid #acfcd9;
+  -webkit-box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+#contact-header .contact-row {
   margin: 0;
   padding: 0;
   width: 100%;
 }
 
-#intro .contact-card {
+#contact-header .contact-card {
   padding: 0;
-  margin: 0;
+  margin: 10px 0 0 0;
   border: none;
+  background-color: black;
 }
 
-#intro p.contact-details {
-  display: inline;
-  font-size: 0.65em;
+#contact-header p.contact-details {
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.4vw;
+  margin-top: -5px;
+  font-weight: 500;
+  color: #ffffff;
 }
 
-#intro .fas {
-  display: inline;
+#contact-header .icons {
   padding: 0;
-  margin: 0;
-  size: 1px;
+  margin-top: 7px;
+  padding-right: 7px;
+  color: #ffffff;
 }
 
-#intro .card-body {
+#contact-header .card-body {
   padding: 0;
   margin: 0;
   text-align: center;
+  color: white;
 }
 
-.skill-row h3.skills-title {
-  font-size: 1em;
+#skills {
+  margin-bottom: 10px;
 }
 
-.experience-rows .experience-title {
-  margin: 8px 0 0 0;
-  padding: 0;
-  font-size: 1.1em;
+#skills .skills-title {
+  padding-right: 70px;
 }
 
-.experience-rows .experience-dates {
-  margin: 0;
-  padding: 0;
-  font-weight: 300;
-  font-size: 0.8em;
+#skills h2 {
+  margin-bottom: 30px;
 }
 
-.experience-rows .experience-location {
-  margin: 8px 0 0 0;
-  padding: 0;
-  font-size: 0.9em;
+#projects {
+  margin-bottom: 10px;
 }
 
-.experience-rows .experience-city {
-  margin: 0;
-  padding: 0;
-  font-weight: 300;
-  font-size: 0.8em;
+#projects h2 {
+  margin-bottom: 30px;
 }
 
-.experience-rows .experience-description {
-  font-size: 0.9em;
-  padding: 0.2em 1em 0.2em 3em;
-  margin: 0.25em 0.25em 1em 0.25em;
+#experience {
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 1200px) {
+  #mobile-contact {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 600px) {
-  h1.my-name {
-    padding-left: 6px;
+  #contact-header {
+    display: none;
+  }
+  #mobile-contact {
+    display: inline;
+  }
+  #mobile-contact .card-body {
+    padding: 0;
+  }
+  #mobile-contact .contact-card {
+    border: none;
+  }
+  #mobile-contact .contact-details {
+    font-size: 3vw;
+    font-weight: 700;
+    line-height: 1.8;
+    padding: 0 6px 0 6px;
+  }
+  #mobile-contact .icons {
+    padding-right: 10px;
+  }
+  .main-container {
+    padding-top: 10px;
   }
   h2.section-header {
     padding-left: 6px;
+    font-size: 3vw;
+    font-weight: 300;
+  }
+  .experience-rows {
+    padding-left: 3px;
+  }
+  .experience-rows .experience-title {
+    margin: 15px 0 0 6px;
+    padding: 0;
+    font-size: 4vw;
+  }
+  .experience-rows .experience-dates {
+    margin: 3px 0 0 6px;
+    padding: 0;
+    font-size: 2.2vw;
+    font-weight: 500;
+    color: #2c363f;
+    text-transform: none;
+  }
+  .experience-rows .experience-location {
+    margin: 3px 0 0 6px;
+    color: #2c363f;
+    font-weight: 500;
+    padding: 0;
+    font-size: 2.2vw;
+  }
+  .experience-rows .experience-city {
+    margin: 3px 0 0 6px;
+    padding: 0;
+    font-size: 2.2vw;
+    font-weight: 500;
+    text-transform: none;
+    color: #2c363f;
+  }
+  .experience-rows p.experience-description {
+    font-size: 2.5vw;
+    line-height: 1.8;
+    padding: 0 6px 0 0;
+    margin: 5px 6px 10px 6px;
+    color: #2c363f;
+  }
+  #projects h2 {
+    margin-bottom: 10px;
+  }
+  #skills h2 {
+    margin-bottom: 10px;
+  }
+  #intro {
+    margin-top: 0;
+    padding-left: 3px;
+  }
+  #intro h1.my-name {
+    font-size: 18vw;
+    margin: 0;
+    padding: 0 80px 0 3px;
+    line-height: 1;
+    font-family: "Roboto Mono", monospace;
+    color: #050505;
+  }
+  #intro h3.my-headline {
+    font-size: 7vw;
+    padding: 0 0 0 6px;
+    font-family: "Roboto Mono", monospace;
+    margin-bottom: 20px;
+  }
+  #intro p.my-summary {
+    font-size: 2.5vw;
+    line-height: 1.8;
+    padding: 0 6px 0 6px;
+    color: #2c363f;
+  }
+  .skill-row h3.skills-title {
+    margin: 15px 0 10px 6px;
+    padding: 0;
+    font-size: 4vw;
+  }
+  .skill-row .skills-description {
+    font-size: 2.5vw;
+    line-height: 1.8;
+    padding: 0 6px 0 6px;
   }
 }
 /*# sourceMappingURL=styles.css.map */
