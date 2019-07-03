@@ -182,6 +182,10 @@ h2.section-header {
   margin-bottom: 10px;
 }
 
+#projects .skill-box {
+  position: relative;
+}
+
 #projects h2 {
   margin-bottom: 30px;
 }
