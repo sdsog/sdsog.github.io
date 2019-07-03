@@ -186,7 +186,7 @@ h2.section-header {
   margin-bottom: 10px;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1800px) {
   #mobile-contact {
     display: none;
   }
