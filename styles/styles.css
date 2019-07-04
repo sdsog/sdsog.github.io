@@ -38,7 +38,7 @@ a:hover {
 
 p {
   font-family: "Roboto Mono", sans-serif;
-  font-size: calc(12px + 0.5vw);
+  font-size: calc(10px + 0.5vw);
   word-wrap: break-word;
   color: #2c363f;
   line-height: 1.5;
@@ -137,13 +137,13 @@ h2.section-header {
 }
 
 .skill-row h3.skills-title {
-  font-size: calc(14px + 0.5vw);
+  font-size: calc(12px + 0.5vw);
 }
 
 .experience-rows .experience-title {
   margin: 25px 0 0 0;
   padding: 0;
-  font-size: calc(14px + 0.5vw);
+  font-size: calc(12px + 0.5vw);
 }
 
 .experience-rows .experience-dates {
@@ -172,7 +172,7 @@ h2.section-header {
 }
 
 .experience-rows p.experience-description {
-  font-size: calc(12px + 0.5vw);
+  font-size: calc(10px + 0.5vw);
   line-height: 1.5;
   padding: 0;
   margin: 5px 0 10px 0;
