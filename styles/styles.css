@@ -171,11 +171,18 @@ h2.section-header {
   color: #2c363f;
 }
 
+.experience-rows p.client-list {
+  font-size: calc(8px + 0.5vw);
+  line-height: 1.5;
+  margin: 5px 0 5px 0;
+  color: #2c363f;
+}
+
 .experience-rows p.experience-description {
   font-size: calc(10px + 0.5vw);
   line-height: 1.5;
   padding: 0;
-  margin: 5px 0 10px 0;
+  margin: 0 0 10px 0;
   color: #2c363f;
 }
 
@@ -278,7 +285,7 @@ h2.section-header {
   margin-bottom: 10px;
 }
 
-@media only screen and (max-width: 1800px) {
+@media only screen and (max-width: 2500px) {
   #mobile-contact {
     display: none;
   }
@@ -378,11 +385,27 @@ h2.section-header {
     text-transform: none;
     color: #2c363f;
   }
+  .experience-rows .client-list {
+    margin: 5px 6px 10px 6px;
+    padding: 0 6px 0 0;
+  }
+  .experience-rows .experience-full-width-mobile {
+    margin: 5px 6px 10px 20px;
+    padding: 0 6px 0 0;
+  }
+  .experience-rows p.client-list {
+    margin: 0 6px 8px 20px;
+    padding: 0 6px 0 0;
+    font-size: calc(10px + 0.5vw);
+    line-height: 1.5;
+    margin: 5px 0 5px 0;
+    color: #2c363f;
+  }
   .experience-rows p.experience-description {
     font-size: calc(12px + 0.5vw);
     line-height: 1.8;
     padding: 0 6px 0 0;
-    margin: 5px 6px 10px 6px;
+    margin: 8px 6px 10px 0;
     color: #2c363f;
   }
   #projects h2 {
