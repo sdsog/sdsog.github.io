@@ -149,10 +149,8 @@ h2.section-header {
 .experience-rows .experience-dates {
   margin: 2px 0 0 0;
   padding: 0;
-  font-size: calc(8px + 0.5vw);
+  font-size: calc(6px + 0.5vw);
   font-weight: 300;
-  color: #2c363f;
-  text-transform: uppercase;
 }
 
 .experience-rows .experience-location {
@@ -165,16 +163,16 @@ h2.section-header {
 .experience-rows .experience-city {
   margin: 2px 0 0 0;
   padding: 0;
-  font-size: calc(8px + 0.5vw);
+  font-size: calc(6px + 0.5vw);
   font-weight: 300;
-  text-transform: uppercase;
   color: #2c363f;
 }
 
 .experience-rows p.client-list {
   font-size: calc(8px + 0.5vw);
+  font-size: calc(8px + 0.5vw);
   line-height: 1.5;
-  margin: 5px 0 5px 0;
+  margin: 8px 0 5px 0;
   color: #2c363f;
 }
 
@@ -283,6 +281,10 @@ h2.section-header {
 
 #experience {
   margin-bottom: 10px;
+}
+
+#education p.experience-description {
+  margin: 12px 0 10px 0;
 }
 
 @media only screen and (max-width: 2500px) {
