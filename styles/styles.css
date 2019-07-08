@@ -414,6 +414,9 @@ h2.section-header {
     margin: 8px 6px 10px 0;
     color: #2c363f;
   }
+  .experience-rows .mobile-bold {
+    font-weight: 700;
+  }
   #projects h2 {
     margin-bottom: 10px;
   }
@@ -425,6 +428,10 @@ h2.section-header {
   }
   #projects .project-desc {
     font-size: calc(12px + 0.5vw);
+  }
+  #education .experience-full-width-mobile {
+    margin: 5px 6px 10px 20px;
+    padding: 0 6px 0 0;
   }
   #skills h2 {
     margin-bottom: 10px;
