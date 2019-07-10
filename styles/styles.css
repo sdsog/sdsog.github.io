@@ -192,8 +192,12 @@ h2.section-header {
   color: #2c363f;
 }
 
+.experience-rows .soda {
+  margin-top: -10px;
+}
+
 .experience-rows p.soda {
-  margin-top: 5px;
+  margin-top: -2px;
 }
 
 .experience-rows ul {
@@ -333,11 +337,26 @@ h2.section-header {
   .mobile-header {
     display: none;
   }
+  .mobile-block-top {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 600px) {
+  .main-container {
+    margin-left: 25px;
+  }
   #contact-header {
     display: none;
+  }
+  .mobile-block-top {
+    display: block;
+    width: 120%;
+    height: 20px;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    border-bottom: 1.5px #5dd9c1 solid;
   }
   #projects h5.project-title {
     font-size: calc(16px + 0.5vw);
@@ -397,7 +416,7 @@ h2.section-header {
     padding-top: 10px;
   }
   h2.section-header {
-    padding-left: 8px;
+    padding-left: 0;
     font-size: calc(16px + 0.5vw);
     font-weight: 300;
   }
@@ -488,6 +507,16 @@ h2.section-header {
     text-decoration: underline;
     -webkit-text-decoration-color: #5dd9c1;
             text-decoration-color: #5dd9c1;
+  }
+  .experience-rows ul.soda-title {
+    margin-top: -3px;
+    margin-bottom: 5px;
+  }
+  .experience-rows .soda {
+    margin-top: -10px;
+  }
+  .experience-rows p.soda {
+    margin-top: -2px;
   }
   #projects h2 {
     margin-bottom: 10px;
