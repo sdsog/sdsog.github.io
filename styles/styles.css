@@ -345,18 +345,20 @@ h2.section-header {
 @media only screen and (max-width: 600px) {
   .main-container {
     width: 100%;
+    overflow: hidden;
   }
   #contact-header {
     display: none;
   }
   .mobile-block-top {
-    display: block;
-    width: 140%;
+    display: inline-block;
+    width: 100%;
     height: 20px;
     padding: 0;
     margin: 0;
     background-color: black;
     border-bottom: 1.5px #5dd9c1 solid;
+    overflow: hidden;
   }
   #projects h5.project-title {
     font-size: calc(16px + 0.5vw);
@@ -414,22 +416,21 @@ h2.section-header {
     padding-right: 10px;
   }
   .no-gutters {
-    width: 140%;
-    overflow: visible;
+    width: 100%;
+    overflow: hidden;
   }
   .main-container {
     padding-top: 10px;
   }
   h2.section-header {
-    padding-left: 20px;
+    padding-left: 23px;
     font-size: calc(16px + 0.5vw);
     font-weight: 300;
     padding-top: 10px;
-    display: block;
-    overflow: visible;
+    display: inline-block;
   }
   .experience-rows {
-    padding-left: 3px;
+    padding-left: 18px;
   }
   .experience-rows .experience-title {
     margin: 15px 0 0 6px;
@@ -529,14 +530,43 @@ h2.section-header {
     margin-top: -2px;
     width: 95%;
   }
+  #skills {
+    width: 100%;
+    display: inline-block;
+  }
+  #skills h2.section-header {
+    margin-bottom: 10px;
+    margin-left: -3px;
+  }
+  #skills .card {
+    border: none;
+    width: 100%;
+  }
+  #skills .card-body {
+    width: 100%;
+  }
+  #skills .project-title {
+    font-size: calc(16px + 0.5vw);
+  }
+  #skills .project-desc {
+    font-size: calc(11px + 0.5vw);
+  }
+  #projects {
+    width: 100%;
+    display: inline-block;
+  }
+  #projects h2.section-header {
+    margin-bottom: 2px;
+    margin-left: -3px;
+  }
   #projects .card {
     border: none;
   }
   #projects .card {
-    width: 92%;
+    width: 100%;
   }
   #projects .card-body {
-    width: 120%;
+    width: 100%;
   }
   #projects .project-title {
     font-size: calc(16px + 0.5vw);
@@ -545,38 +575,34 @@ h2.section-header {
     font-size: calc(11px + 0.5vw);
   }
   #experience {
-    margin-left: 8px;
-    width: 110%;
-    padding-left: 10px;
-  }
-  #experience h2.section-header {
-    margin-left: -20px;
-    padding-left: 28px;
-    margin-bottom: -2px;
+    width: 100%;
+    display: inline-block;
   }
   #education {
-    margin-left: 8px;
-    width: 110%;
-    padding-left: 10px;
-  }
-  #education h2.section-header {
-    margin-left: -20px;
-    padding-left: 28px;
-    margin-bottom: -2px;
+    width: 100%;
+    display: inline-block;
   }
   #education .experience-full-width-mobile {
     margin: 5px 6px 10px 20px;
     padding: 0 6px 0 0;
   }
-  #skills h2 {
-    margin-bottom: 10px;
+  #education .experience-description {
+    width: 95%;
+  }
+  #skills {
+    width: 100%;
+    display: inline-block;
+  }
+  #skills h2.section-header {
+    margin-bottom: 2px;
+    margin-left: -3px;
   }
   #skills .card {
     border: none;
-    width: 92%;
+    width: 100%;
   }
   #skills .card-body {
-    width: 120%;
+    width: 100%;
   }
   #skills .project-title {
     font-size: calc(16px + 0.5vw);
