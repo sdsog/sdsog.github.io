@@ -140,8 +140,12 @@ h2.section-header {
   font-size: calc(12px + 0.5vw);
 }
 
+.experience-rows {
+  margin-bottom: 15px;
+}
+
 .experience-rows .experience-title {
-  margin: 25px 0 0 0;
+  margin: 15px 0 0 0;
   padding: 0;
   font-size: calc(12px + 0.5vw);
 }
@@ -155,7 +159,7 @@ h2.section-header {
 }
 
 .experience-rows .experience-location {
-  margin: 30px 0 0 0;
+  margin: 10px 0 0 0;
   color: #2c363f;
   padding: 0;
   font-size: calc(10px + 0.5vw);
