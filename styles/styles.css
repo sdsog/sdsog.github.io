@@ -351,7 +351,7 @@ h2.section-header {
   }
   .mobile-block-top {
     display: block;
-    width: 120%;
+    width: 200%;
     height: 20px;
     padding: 0;
     margin: 0;
@@ -387,6 +387,7 @@ h2.section-header {
     width: 100%;
     color: #2c363f;
     margin-left: 20px;
+    width: 95%;
   }
   #mobile-contact {
     display: inline;
@@ -412,7 +413,7 @@ h2.section-header {
     padding-right: 10px;
   }
   .no-gutters {
-    width: 120%;
+    width: 200%;
     overflow: visible;
   }
   .main-container {
@@ -422,6 +423,9 @@ h2.section-header {
     padding-left: 20px;
     font-size: calc(16px + 0.5vw);
     font-weight: 300;
+    padding-top: 10px;
+    display: block;
+    overflow: visible;
   }
   .experience-rows {
     padding-left: 3px;
@@ -474,6 +478,7 @@ h2.section-header {
     line-height: 1.5;
     margin: 5px 0 5px 0;
     color: #2c363f;
+    width: 90%;
   }
   .experience-rows p.experience-description {
     font-size: calc(11px + 0.5vw);
@@ -494,6 +499,7 @@ h2.section-header {
     margin-top: 12px;
     line-height: 1.6;
     list-style: none;
+    width: 95%;
   }
   .experience-rows li {
     margin: 0 0 12px 0;
@@ -520,9 +526,13 @@ h2.section-header {
   }
   .experience-rows p.soda {
     margin-top: -2px;
+    width: 95%;
   }
   #projects .card {
     border: none;
+  }
+  #projects .card {
+    width: 92%;
   }
   #projects .card-body {
     width: 120%;
@@ -562,6 +572,7 @@ h2.section-header {
   }
   #skills .card {
     border: none;
+    width: 92%;
   }
   #skills .card-body {
     width: 120%;
