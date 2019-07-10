@@ -344,7 +344,7 @@ h2.section-header {
 
 @media only screen and (max-width: 600px) {
   .main-container {
-    margin-left: 25px;
+    width: 100%;
   }
   #contact-header {
     display: none;
@@ -365,13 +365,10 @@ h2.section-header {
     font-size: calc(11px + 0.5vw);
     padding-left: 6px;
   }
-  #intro {
-    margin-top: 0;
-    padding-left: 3px;
-  }
   #intro h1.my-name {
     font-size: 18vw;
     margin: 0;
+    margin-left: 20px;
     padding: 0 80px 0 3px;
     line-height: 1;
     font-family: "Roboto Mono", monospace;
@@ -381,7 +378,7 @@ h2.section-header {
     font-size: 7vw;
     padding: 0 0 0 6px;
     font-family: "Roboto Mono", monospace;
-    margin: 10px 0 20px 0;
+    margin: 10px 0 20px 20px;
   }
   #intro p.my-summary {
     font-size: calc(11px + 0.5vw);
@@ -389,6 +386,7 @@ h2.section-header {
     padding: 0 6px 0 6px;
     width: 100%;
     color: #2c363f;
+    margin-left: 20px;
   }
   #mobile-contact {
     display: inline;
@@ -398,6 +396,7 @@ h2.section-header {
   }
   #mobile-contact .card-body {
     padding: 0;
+    margin-left: 20px;
   }
   #mobile-contact .contact-card {
     border: none;
@@ -412,11 +411,15 @@ h2.section-header {
   #mobile-contact .icons {
     padding-right: 10px;
   }
+  .no-gutters {
+    width: 120%;
+    overflow: visible;
+  }
   .main-container {
     padding-top: 10px;
   }
   h2.section-header {
-    padding-left: 0;
+    padding-left: 20px;
     font-size: calc(16px + 0.5vw);
     font-weight: 300;
   }
@@ -518,17 +521,37 @@ h2.section-header {
   .experience-rows p.soda {
     margin-top: -2px;
   }
-  #projects h2 {
-    margin-bottom: 10px;
-  }
   #projects .card {
     border: none;
+  }
+  #projects .card-body {
+    width: 120%;
   }
   #projects .project-title {
     font-size: calc(16px + 0.5vw);
   }
   #projects .project-desc {
     font-size: calc(11px + 0.5vw);
+  }
+  #experience {
+    margin-left: 8px;
+    width: 110%;
+    padding-left: 10px;
+  }
+  #experience h2.section-header {
+    margin-left: -20px;
+    padding-left: 28px;
+    margin-bottom: -2px;
+  }
+  #education {
+    margin-left: 8px;
+    width: 110%;
+    padding-left: 10px;
+  }
+  #education h2.section-header {
+    margin-left: -20px;
+    padding-left: 28px;
+    margin-bottom: -2px;
   }
   #education .experience-full-width-mobile {
     margin: 5px 6px 10px 20px;
@@ -539,6 +562,9 @@ h2.section-header {
   }
   #skills .card {
     border: none;
+  }
+  #skills .card-body {
+    width: 120%;
   }
   #skills .project-title {
     font-size: calc(16px + 0.5vw);
