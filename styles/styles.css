@@ -485,8 +485,11 @@ h2.section-header {
     padding-left: 18px;
   }
   .experience-rows .experience-title {
-    margin: 15px 0 0 6px;
+    display: inline-block;
+    width: 90%;
+    margin: 15px -20px 0 6px;
     padding: 0;
+    padding-right: 10px;
     font-size: calc(16px + 0.5vw);
     padding-top: 15px;
     border-top: 1px rgba(128, 128, 128, 0.2) solid;
