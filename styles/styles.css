@@ -7,8 +7,8 @@ body {
 .main-container {
   max-width: 800px;
   padding-top: 80px;
-  padding-left: 0;
-  padding-right: 0;
+  padding-left: 15px;
+  padding-right: 15px;
   margin-bottom: 30px;
 }
 
@@ -75,7 +75,7 @@ h2.section-header {
 
 #contact-header .contact-card {
   padding: 0;
-  margin: 10px 0 0 0;
+  margin: 10px 5px 0 5px;
   border: none;
   background-color: black;
 }
@@ -364,10 +364,69 @@ h2.section-header {
   }
 }
 
+@media only screen and (max-width: 769px) {
+  #contact-header {
+    display: none;
+  }
+  .main-container {
+    width: 100%;
+    padding-top: 20px;
+  }
+  #intro h1.my-name {
+    font-size: 8vw;
+  }
+  #intro h3.my-headline {
+    font-size: 4vw;
+  }
+  #intro p.my-summary {
+    display: inline-block;
+    width: 95%;
+    padding-bottom: 10px;
+  }
+  #intro .main-container {
+    padding-top: 30px;
+  }
+  .mobile-block-top {
+    display: inline-block;
+    width: 100%;
+    height: 20px;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    border-bottom: 1.5px #5dd9c1 solid;
+    overflow: hidden;
+  }
+  #mobile-contact {
+    display: inline;
+  }
+  #mobile-contact a {
+    color: #050505;
+  }
+  #mobile-contact .card-body {
+    padding: 0;
+    margin-left: 20px;
+  }
+  #mobile-contact .contact-card {
+    border: none;
+  }
+  #mobile-contact .contact-details {
+    font-size: calc(11px + 0.5vw);
+    font-weight: 700;
+    line-height: 1.8;
+    padding: 0 6px 0 6px;
+    white-space: nowrap;
+  }
+  #mobile-contact .icons {
+    padding-right: 10px;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   .main-container {
     width: 100%;
     overflow: hidden;
+    padding-right: 0;
+    padding-left: 0;
   }
   #contact-header {
     display: none;
@@ -396,7 +455,7 @@ h2.section-header {
   #intro h1.my-name {
     font-size: 18vw;
     margin: 0;
-    margin-left: 20px;
+    margin-left: 10px;
     padding: 0 80px 0 3px;
     line-height: 1;
     font-family: "Roboto Mono", monospace;
@@ -408,14 +467,14 @@ h2.section-header {
     font-size: 7vw;
     padding: 0 0 0 6px;
     font-family: "Roboto Mono", monospace;
-    margin: 10px 0 20px 20px;
+    margin: 10px 0 20px 10px;
   }
   #intro p.my-summary {
     font-size: calc(11px + 0.5vw);
     line-height: 1.8;
     padding: 0 6px 0 6px;
     color: #2c363f;
-    margin-left: 20px;
+    margin-left: 10px;
     width: 92%;
   }
   #mobile-contact {
@@ -426,7 +485,7 @@ h2.section-header {
   }
   #mobile-contact .card-body {
     padding: 0;
-    margin-left: 20px;
+    margin-left: 0;
   }
   #mobile-contact .contact-card {
     border: none;
@@ -435,7 +494,7 @@ h2.section-header {
     font-size: calc(11px + 0.5vw);
     font-weight: 700;
     line-height: 1.8;
-    padding: 0 6px 0 6px;
+    padding: 0 6px 0 2px;
     white-space: nowrap;
   }
   #mobile-contact .icons {
